@@ -5,7 +5,7 @@ import threading
 url = "http://llt.thanhhoa.edu.vn:8089/accounts/login"
 csrftoken = requests.get(url).cookies.get_dict()['csrftoken']
 
-def dang_nhap():
+def dang_nhap(): # Chả hiểu sao đăng nhập nhiều lại chết web được, ảo vl
     try:
         body = {
             'csrfmiddlewaretoken': csrftoken,
