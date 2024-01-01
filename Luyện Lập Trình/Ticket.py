@@ -12,7 +12,7 @@ url = "http://llt.thanhhoa.edu.vn:8089/problem/hsgthcs2023c4/tickets/new"
 # Dùng EditThisCookie để lấy sessionid tài khoản của mày nha
 # https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg
 
-sessionid = "y7o70qmf38yclphcygt5c7n1mhbu348m"
+sessionid = ""
 
 csrftoken = requests.get(url).cookies.get_dict()['csrftoken']
 
