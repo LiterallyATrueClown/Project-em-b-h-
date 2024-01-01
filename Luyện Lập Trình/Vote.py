@@ -1,0 +1,1 @@
+# Ngại làm lắm, vì Luyện Lập Trình bắt phải làm hết 5 bài mới được vote, mà bài thì khó, bọn mày thì lười nhác, có thèm làm đâu :v

@@ -9,8 +9,9 @@ def dang_nhap(): # Chả hiểu sao đăng nhập nhiều lại chết web đư�
     try:
         body = {
             'csrfmiddlewaretoken': csrftoken,
-            'username': "nguyendtk",
-            'password': 'Khoi@280409',
+            # Tự thay username với mật khẩu
+            'username': "",
+            'password': '',
         }
         response = requests.post(url, data=body)
         print(response.status_code)
