@@ -35,12 +35,12 @@ $(function () {
                 85% {color: violet;}\
                 100% {color: red;}\
             }\
-            .button, .left-sidebar-item, button, input[type='submit'], #contest-info-main, #contest-info-toggle, #nav-container {\
+            .submission-row, tbody[aria-live='polite'], td[class='full-score problem-score-col'], td[class='partial-score problem-score-col'], td[class='problem-score-col'], td[class='failed-score problem-score-col'], th, tr[role='row'], .button, .left-sidebar-item, button, input[type='submit'], #contest-info-main, #contest-info-toggle, #nav-container {\
                 animation-name: rainbow;\
                 animation-duration: 4s;\
                 animation-iteration-count: infinite;\
             }\
-            span, div[class='alert'], td {\
+            div[class='alert'], td {\
                 animation-name: rainbow-font;\
                 animation-duration: 4s;\
                 animation-iteration-count: infinite;\
