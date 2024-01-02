@@ -1,4 +1,4 @@
-# Project-em-bé-hư
+# Project em bé hư
 Mấy cái script vớ va vớ vẩn dùng cho mấy cái Online Judge (LQDOJ, VNOI, DMOJ, LCOJ, LLT, ...)
 
 Userscript Trần Đức Bo:
