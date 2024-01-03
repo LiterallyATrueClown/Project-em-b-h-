@@ -1,0 +1,2 @@
+# Lưu ý, LQDOJ là một web được bảo mật bởi CloudFlare, rất phiền phức, nếu bị CloudFlare ghim thì có thể dùng VPN spam tiếp
+# Ai có kiến thức hơn thì đi móc proxy trên mạng bỏ vào quay spam cho sướng, tầm 1 proxy spam từ 50 - 500 requests
