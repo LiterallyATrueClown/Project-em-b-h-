@@ -1,1 +1,1 @@
-# Ngại làm lắm, vì Luyện Lập Trình bắt phải làm hết 5 bài mới được vote, mà bài thì khó, bọn mày thì lười nhác, có thèm làm đâu :v
+# Cái này chỉ làm rối loạn chức năng của 1 web nhất định thôi, không đặc biệt nên không làm (Lười, ngại làm, donate 3 cốc tà tưa rồi Nguyên làm :>)

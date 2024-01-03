@@ -1,1 +1,1 @@
-# Luyện Lập Trình bắt phải làm xong 10 bài mới được đăng blog, mà giờ nó mới có 9 bài, có cứt mà đăng được :>
+# Có cho đăng đéo đâu mà làm, nhìn cái gì, đi ra đi >:[

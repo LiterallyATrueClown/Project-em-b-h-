@@ -4,7 +4,7 @@ import random
 import string
 import time
 
-url = "http://llt.thanhhoa.edu.vn:8089/accounts/register/"
+url = "https://lqdoj.edu.vn/accounts/register/"
 
 csrftoken = requests.get(url).cookies.get_dict()['csrftoken']
 
@@ -35,4 +35,4 @@ def register_account(): # Chả hiểu sao đăng kí nhiều lại chết web �
 
 while True:
     threading.Thread(target=register_account).start()
-    time.sleep(0.1) # Cái web yếu xìu này thì không cần phải tốn công mất sức làm gì
+    time.sleep(0.1)

